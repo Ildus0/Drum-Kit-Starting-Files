@@ -7,7 +7,6 @@ let buttonNum = document.querySelectorAll('.drum').length;
 for (let i = 0; i < buttonNum; i++) {
 
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    this.style.color = "white";
        sound[i].play();
 
   });
